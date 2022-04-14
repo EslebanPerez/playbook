@@ -14,8 +14,9 @@ const explorer = {
 
 console.log(explorer)
 console.log("Accediendo a las propiedades del objeto")
-console.log("Hola soy el explorer " + explorer.namess)
-console.log(`Otra manera de acceder al la propiedad ${explorer.names}`)
+console.log("Hola soy el explorer " + explorer.name)
+console.log(`\nOtra manera de acceder a la propiedad`)
+console.log(`Hola soy el explorer ${explorer.name}`)
 
 
 // console.log("Ejemplo3: Objeto con métodos")
