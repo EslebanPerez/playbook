@@ -2,10 +2,10 @@ class Pokemon{
     constructor(name){
         this.name = name;
     }
-    sayHello(name){
+    sayHello(){
         console.log(`Mi pokemon ${this.name} Te saluda!!!`)
     }
-    sayMessage(message){
+    sayMessage(){
         console.log(`Mi pokemon ${this.name} dice: ${message}`+'\n')
     }
 }
