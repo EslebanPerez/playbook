@@ -9,4 +9,5 @@ const countriesEndsbyia = countries.filter((country) => country.endsWith('ia'))
 console.log('\nEjemplo 7: Paise que terminan en ia')
 console.log(countriesEndsbyia)
 
-
+const countriesWithX = countries.filter(country => country.includes('x'))
+console.log(countriesWithX);
